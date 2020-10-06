@@ -13,7 +13,7 @@ var stringifyJSON = function(obj) {
   if (obj === null || typeof obj === NaN || typeof obj === undefined) {
     return 'null';
   }
-  if (typeof obj === 'boolean'){
+  if (typeof obj === 'boolean') {
     return obj.toString();
   }
   if (Array.isArray(obj)) {
